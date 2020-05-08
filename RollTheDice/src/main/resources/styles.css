@@ -1,0 +1,57 @@
+
+#LoginPane, #GameRoot {
+	
+	-fx-background-color: #db3300;
+}
+
+.button{
+	-fx-font: bold italic 20pt "Arial";
+    -fx-text-fill: rgb(30, 60, 90);
+    -fx-border-color: rgb(50, 50, 50);
+    -fx-border-radius: 5;
+    -fx-padding: 6 6 6 6;
+    -fx-background-color: #db1000;
+    -fx-background-radius:5;
+}
+
+#PlayButton {
+	-fx-font: 50pt "Arial";
+    -fx-text-fill: RED;
+    -fx-border-color: rgb(50, 50, 50);
+    -fx-border-radius: 5;
+    -fx-padding: 6 6 6 6;
+    -fx-background-color: #660808;
+    -fx-background-radius:5;
+}
+
+
+#PlayerName1, #PlayerName2 {
+	
+	-fx-font: bold italic 16pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 4 , 0.0 , 1 , 0 );
+}
+
+#Player1{
+	-fx-font: 40pt "Arial";
+	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+	-fx-text-fill: DARKGREEN;
+	-fx-border-color: rgb(50, 50, 50);
+    -fx-border-radius: 5;
+	-fx-background-color: #61c93e;
+	-fx-background-radius: 5;
+}
+
+#Player2 {
+	-fx-font: 40pt "Arial";
+	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+	-fx-text-fill: BLUE;
+	-fx-border-color: rgb(50, 50, 50);
+    -fx-border-radius: 5;
+	-fx-background-color: #3e8dc9;
+	-fx-background-radius: 5;
+}
+
+#ErrorMessage {
+	-fx-font: bold 20pt "Arial";
+	-fx-text-fill: BLACK;
+}
